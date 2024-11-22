@@ -1,0 +1,59 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment and dependencies
+.env
+venv/
+*.egg-info/
+*.egg
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE and editor settings
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and debugging
+*.log
+*.out
+*.err
+
+# Byte-compiled and other Python artifacts
+*.pyo
+*.pyd
+*.pyd
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Unit test / coverage reports
+.coverage
+*.cover
+*.coverage.*
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+
+# Ignore deployment artifacts
+docker-compose.override.yml
+*.tar
+*.zip
+*.gz
+
+# Custom for your project
+# Ignore bot credentials or sensitive data files
+bot/credentials.json
